@@ -1,3 +1,9 @@
+<!-- markdownlint-disable -->
+<!-- The empty <base> tag fixes "Unable to get absolute uri between \README.md and ; Base path '' must be an absolute path"
+     errors in some Markdown renderers (e.g. GitLab Duo Agent Platform's preview)
+     that pass the file's absolute path through urljoin('', path) and expect a real URL base. -->
+<base href=".">
+
 # ML Experiment Tracking Platform
 
 > **Author:** Mahi Abdullah
@@ -331,4 +337,4 @@ Content-Type: application/json
 
 ## License
 
-MIT — add a `LICENSE` file with the MIT template if it isn't present yet.
+Do whatever you want with this code.
